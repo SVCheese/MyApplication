@@ -1,7 +1,7 @@
 package cheese.soft.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         b = (Button) findViewById(R.id.button);
+        b = (Button) findViewById(R.id.button2);
     }
 }
